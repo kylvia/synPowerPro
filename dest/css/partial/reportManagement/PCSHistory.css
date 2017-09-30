@@ -1,0 +1,41 @@
+.pcs-main {
+  text-align: left;
+  margin: 20px auto;
+}
+.pcs-main label {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.pcs-main select {
+  width: 178px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #006699;
+  border-radius: 2px;
+  background: #011F43;
+}
+.pcs-main .form-group label + label {
+  margin-left: 15px;
+}
+.pcs-main .form-group + .form-group {
+  margin-left: 42px;
+}
+.pcs-main .btn-right {
+  float: right;
+}
+.pcs-main .pcs-table {
+  margin-top: 12px;
+  float: left;
+  width: 100%;
+}
+.pcs-main .table {
+  table-layout: fixed;
+}
+.pcs-main .bootstrap-table .fixed-table-container thead th .th-inner,
+.pcs-main .bootstrap-table .fixed-table-container tbody td .th-inner {
+  line-height: 22px;
+}
+.pcs-main .fixed-table-container thead th .th-inner,
+.pcs-main .fixed-table-container tbody td .th-inner {
+  white-space: normal;
+}

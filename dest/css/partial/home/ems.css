@@ -1,0 +1,29 @@
+.cus-ems-box {
+  text-align: left;
+  border: 1px solid #0c2341;
+  background-color: #061528;
+  width: 97.3958%;
+  margin: 1.0625% auto;
+  border-radius: 5px;
+  padding: 20px 1.6042%;
+}
+.cus-ems-box .cus-ems-tit {
+  color: #33cc66;
+  font-size: 1.28571em;
+}
+.cus-ems-box .cus-ems-tips {
+  color: #0a5cbf;
+  margin-top: 10px;
+  font-size: 1.28571em;
+}
+.cus-ems-box .emsTable {
+  width: 96%;
+  margin: 10px auto;
+  margin-top: 30px;
+}
+.cus-ems-box .emsTable .bootstrap-table thead > tr {
+  height: 50px;
+}
+.cus-ems-box .emsTable .bootstrap-table .fixed-table-container thead th .th-inner {
+  line-height: 34px;
+}

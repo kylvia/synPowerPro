@@ -1,0 +1,55 @@
+.setPage{
+  text-align: left;
+  .viewForm{
+    span{
+      color: #00ff00;
+    }
+  }
+  .formLine{
+    margin-top: 22px;
+    >label{
+      display: inline-block;
+      width: 140px;
+      text-align: right;
+      margin-right: 15px;
+    }
+  }
+  input[type='text']{
+    width: 410px;
+  }
+  .genderInp{
+    display: inline-block;
+    .radioStyle{
+      width: 24px;
+      vertical-align: middle;
+      cursor: pointer;
+      text-align: center;
+      margin-right: 10px;
+      background-image: url(/images/setting/radio.png);
+      background-repeat: no-repeat;
+      &.on{
+        background-image: url(/images/setting/radioActive.png);
+      }
+    }
+    input{
+      width: 16px;
+      /*height: 16px;
+      vertical-align: middle;
+      margin-bottom: 6px;
+      margin-right: 4px;*/
+      opacity: 0;
+      cursor: pointer;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+  }
+  .cus-btnBar{
+    margin-left: 200px;
+    margin-top: 110px;
+    .cus-img-btn{
+      &+.cus-img-btn{
+        margin-left: 50px;
+      }
+    }
+  }
+}

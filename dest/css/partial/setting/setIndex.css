@@ -1,0 +1,107 @@
+.setPage {
+  width: 100%;
+  clear: both;
+  padding-top: 22px;
+  height: 100%;
+}
+.setPage .sp-menu {
+  text-align: left;
+  display: inline-block;
+  width: 17.708%;
+  float: left;
+  margin-top: -22px;
+  padding: 0 20px;
+  border-right: 1px solid #006699;
+  background-color: #011734;
+  height: 100%;
+}
+.setPage .sp-menu a {
+  padding: 0 15px;
+  display: inline-block;
+  width: 300px;
+  height: 52px;
+  line-height: 52px;
+  margin-top: 22px;
+  font-size: 20px;
+  background: url("/images/setting/login-bg1.png") no-repeat center;
+}
+.setPage .sp-menu a.on {
+  background: url("/images/setting/login-bg.png") no-repeat center;
+}
+.setPage .sp-menu a:hover {
+  background: url("/images/setting/login-bg.png") no-repeat center;
+}
+.setPage .sp-menu .menuIcon {
+  display: inline-block;
+  width: 28px;
+  vertical-align: middle;
+  height: 28px;
+  background: url("/images/setting/login-bg.png") no-repeat center;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+.setPage .sp-menu .personAccount {
+  background: url("/images/setting/gerenzhanghu.png") no-repeat center;
+}
+.setPage .sp-menu .userManage {
+  background: url("/images/setting/yonghugyangli.png") no-repeat center;
+}
+.setPage .sp-menu .connectSet {
+  background: url("/images/setting/tongxunshezhi.png") no-repeat center;
+}
+.setPage .sp-menu .plantSet {
+  background: url("/images/setting/dianzhanshezhi.png") no-repeat center;
+}
+.setPage .sp-view {
+  width: 82.292%;
+  float: left;
+  padding: 0 14px;
+}
+.setPage .sp-view .settingTitleCon {
+  position: relative;
+}
+.setPage .sp-view .settingTitleConC {
+  display: inline-block;
+  width: calc(100% - 190px);
+  height: 48px;
+  vertical-align: top;
+  border-top: 1px solid #0f315b;
+  background-color: #01244d;
+  border-bottom: 1px solid #0f3059;
+  text-align: left;
+}
+.setPage .sp-view .settingTitleConC h2 {
+  line-height: 48px;
+  font-size: 18px;
+  margin-left: -70px;
+  display: inline-block;
+}
+.setPage .sp-view .settingTitleConL {
+  display: inline-block;
+  vertical-align: top;
+  width: 95px;
+  height: 48px;
+  background: url("/images/setting/head-l.png") no-repeat;
+}
+.setPage .sp-view .settingTitleConR {
+  display: inline-block;
+  vertical-align: top;
+  width: 95px;
+  height: 48px;
+  background: url("/images/setting/head-l.png") no-repeat;
+  background: url("/images/setting/head-r.png") no-repeat;
+}
+.setPage .settingMain {
+  border: 1px solid #0f3059;
+  border-top: none;
+  min-height: 500px;
+}
+.setPage input[type='text'] {
+  border: 1px solid #075e94;
+  height: 28px;
+  line-height: 28px;
+}
+.setPage input[disabled],
+.setPage input[readonly] {
+  background-color: rgba(1, 36, 77, 0.7);
+}

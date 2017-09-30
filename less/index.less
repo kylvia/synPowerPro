@@ -1,0 +1,155 @@
+@import './common.less';
+.cus-body-container{
+  //position: fixed;
+  width: 1920px;
+  height: 1079px;
+  overflow: hidden;
+  background: url("/images/plantstatus/bac.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .cus-body-container{height:1080px;}
+}
+.mainPage{
+  height: 100%;
+}
+.cus-top-nav-massage{
+  height: 40px;
+  line-height: 40px;
+  background-color: #030a13;
+  color: #a5e2f9;
+  .logo{
+    //margin-top: 7px;
+    float: left;
+    img{
+      margin-left: 10px;
+      vertical-align: middle;
+      //margin-bottom: 4px;
+      margin-top: -4px;
+    }
+    span{
+      margin-left: 3px;
+      font-size: 1.29em;
+    }
+  }
+  .toolbar{
+    //margin-top: 9px;
+    float: right;
+    line-height: 40px;
+    vertical-align: middle;
+    .cus-item{
+      margin-left: 20px;
+      &:last-child{
+        margin-right: 20px;
+      }
+      img{
+        margin-right: 10px;
+        //margin-bottom: 2px;
+      }
+    }
+  }
+  .cus-userMsg{
+    position: relative;
+    display: inline-block;
+    .cus-dropBar{
+      display: none;
+      position: absolute;
+      z-index: 99;
+      background-color: rgba(255,255,255,.2);
+      //color: #fff;
+      left: 3px;
+      //top: 31px;
+      width: 111px;
+      border-radius: 5px;
+      li:hover{
+        color: #ffcc33;
+      }
+    }
+    .triangle-up{
+      position: absolute;
+      top: -12px;
+      width: 0;
+      left: 44px;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 12px solid rgba(255,255,255,.2);
+    }
+    &:hover{
+      .cus-dropBar{
+        display: block;
+      }
+    }
+  }
+}
+
+.cus-main-navbar{
+  height: 77px;
+  ul{
+    height: 100%;
+    float: left;
+    width: 100%;
+  }
+  li{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    line-height: 3.7;
+    background-color: #001b3b;
+    border-bottom: 5px solid #001b3b;
+    font-size: 1.42em;
+    color: #a5e2f9;
+    &.active{
+      background-color: #012754;
+      color: #a5e2f9;
+      border-bottom: 5px solid #16457e;
+    }
+    &:hover{
+      cursor: pointer;
+    }
+    a:before{
+      content: ' ';
+      display: inline-block;
+      width: 34px;
+      height: 33px;
+      vertical-align: middle;
+      margin-bottom: 6px;
+      margin-right: 7px;
+    }
+    a.psIndex:before{
+      background: url("../images/index/dzzt.png") no-repeat right;
+    }
+    a.amIndex:before{
+      background: url("../images/index/gjgl.png") no-repeat right;
+    }
+    a.saIndex:before{
+      background: url("../images/index/tjfx.png") no-repeat right;
+    }
+    a.rmIndex:before{
+      background: url("../images/index/bbgl.png") no-repeat right;
+    }
+  }
+}
+.mainContainer{
+  height:964px;
+}
+
+
+//  密码修改
+.cus-modifyPwdWin{
+  label{
+    font-weight: 500;
+  }
+  .mf-inp{
+    margin-top: 14px;
+  }
+  label{
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+  }
+  input{
+    border:1px solid #075e94;
+    width: 200px;
+  }
+}

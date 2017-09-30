@@ -1,0 +1,42 @@
+<div class="row am-main" id="alarmManagement">
+        <form class="form-inline" role="form" style="float: left; width: 100%" method="post" id="queryForm">
+            <div class="form-group aiLevel">
+                <label>告警等级:</label>
+                <div class="checkboxContainer ai-cred"><input class="inputCheck" id="aiLevelH" type="checkbox" value="3"><label for="aiLevelH"></label><span>高</span></div>
+                <div class="checkboxContainer ai-cyellow"><input class="inputCheck" id="aiLevelM" type="checkbox" value="2"><label for="aiLevelM"></label><span>中</span></div>
+                <div class="checkboxContainer ai-purple"><input class="inputCheck"  id="aiLevelLo" type="checkbox" value="1"><label for="aiLevelLo"></label><span>低</span></div>
+            </div>
+            <div class="form-group aiType">
+                <label>告警类型:</label>
+                <div class="checkboxContainer"><input class="inputCheck" id="aiAl" type="checkbox" value="1"><label for="aiAl"></label><span>告警</span></div>
+                <div class="checkboxContainer"><input class="inputCheck" id="aiEv" type="checkbox" value="0"><label for="aiEv"></label><span>事件</span></div>
+            </div>
+            <div class="form-group">
+                <label>告警状态：</label>
+                <select name="alarm_status" id="alarm-status">
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>发生时间：</label>
+                <input name="alarm_time_start" type="text" class="Wdate" id="bmsd4311" onclick="WdatePicker({maxDate:'#F{$dp.$D(\'bmsd4312\')}',dateFmt:'yyyy-MM-dd HH:mm',readOnly:true})"/>&nbsp;--&nbsp;<input name="alarm_time_end" type="text" class="Wdate" id="bmsd4312" onclick="WdatePicker({minDate:'#F{$dp.$D(\'bmsd4311\')}',dateFmt:'yyyy-MM-dd HH:mm',readOnly:true})"/>
+            </div>
+            <div class="form-group">
+                <label>设备名称：</label>
+                <input type="text" name="device_name" />
+            </div>
+            <div class="form-group">
+                <a id="queryBtn" class="cus-img-btn cus-ib-query">查询</a>
+            </div>
+            <div class="form-group btn-right">
+                <a id="clearBtn" class="cus-img-btn cus-ib-clear">清除</a>
+                <a id="conformBtn" class="cus-img-btn cus-ib-confirm">确认</a>
+                <a id="switchBtn" class="cus-img-btn cus-ib-switch">停用</a>
+            </div>
+        </form>
+
+    <div class="am-table scroll-table">
+        <table id="am-table">
+        </table>
+    </div>
+</div>

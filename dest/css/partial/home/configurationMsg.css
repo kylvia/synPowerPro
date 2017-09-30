@@ -1,0 +1,7 @@
+.cus-cm {
+  text-align: left;
+  padding: 18px;
+}
+.cus-cm .cus-noimg-btn + .cus-noimg-btn {
+  margin-left: 24px;
+}

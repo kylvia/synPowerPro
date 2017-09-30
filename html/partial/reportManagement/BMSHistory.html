@@ -1,0 +1,25 @@
+<div class="bms-main" id="">
+    <form class="form-inline" role="form" style="float: left; width: 100%" method="post" id="queryForm">
+        <div class="form-group">
+            <label>BMS选择：</label>
+            <select name="pcsName" id="bms-model">
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>统计时间：</label>
+            <input name="timeStart" type="text" class="Wdate" id="bmsd4311" onclick="WdatePicker({maxDate:'#F{$dp.$D(\'bmsd4312\')}',dateFmt:'yyyy-MM-dd HH:mm',readOnly:true})"/> &nbsp;--&nbsp;<input name="timeEnd" type="text" class="Wdate" id="bmsd4312" onclick="WdatePicker({minDate:'#F{$dp.$D(\'bmsd4311\')}',dateFmt:'yyyy-MM-dd HH:mm',readOnly:true})"/>
+        </div>
+        <div class="form-group">
+            <a id="queryBtn" class="cus-img-btn cus-ib-query">查询</a>
+        </div>
+        <div class="form-group btn-right">
+            <a id="conformBtn" class="cus-img-btn cus-ib-export">导出</a>
+        </div>
+    </form>
+
+    <div class="bms-table scroll-table">
+        <table id="bms-table">
+        </table>
+    </div>
+</div>

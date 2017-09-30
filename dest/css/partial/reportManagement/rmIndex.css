@@ -1,0 +1,30 @@
+.rm-main {
+  text-align: left;
+  width: 96.875%;
+  margin: 30px auto;
+  margin-bottom: 0;
+}
+.rm-main .cus-tab {
+  border-bottom: 1px solid #075e94;
+}
+.rm-main .cus-tab li {
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 8px;
+  padding: 3px;
+}
+.rm-main .cus-tab li a {
+  font-size: 1.142857em;
+  border-bottom: 4px solid transparent;
+  padding-bottom: 9px;
+}
+.rm-main .cus-tab li a.cus-tab-on {
+  border-color: #0066cc;
+}
+.rm-main input.Wdate {
+  width: 170px;
+}
+.rm-container {
+  text-align: left;
+  margin-top: 28px;
+}

@@ -1,0 +1,291 @@
+.cus-efmain {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  color: #33ccff;
+  font-size: 1.142857em;
+}
+.cus-efmain .ef-txt {
+  color: #00ff33;
+}
+.cus-efmain .ef-statusDis {
+  height: 3%;
+  text-align: right;
+  font-size: 0.875em;
+}
+.cus-efmain .ef-statusDis span {
+  margin-left: 28px;
+  color: #66FF66;
+}
+.cus-efmain .ef-statusDis span:before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #66FF66;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.cus-efmain .ef-statusDis span.ef-close {
+  color: #FF3333;
+}
+.cus-efmain .ef-statusDis span.ef-close:before {
+  background-color: #FF3333;
+}
+.cus-efmain .ef-statusDis span.ef-broken {
+  color: #FFCC33;
+}
+.cus-efmain .ef-statusDis span.ef-broken:before {
+  background-color: #FFCC33;
+}
+.cus-ef-flow {
+  height: 95%;
+}
+.cus-ef-flow .ef-l {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+.cus-ef-flow .ef-l .cus-efrow {
+  height: 16%;
+  position: relative;
+  margin-top: 1%;
+}
+.cus-ef-flow .ef-l .cus-efrow:first-child {
+  margin-top: 0;
+}
+.cus-ef-flow .ef-l .cus-efcolumn {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.cus-ef-flow .ef-l .cus-efcolumn:first-child {
+  margin-left: 0;
+}
+.cus-ef-flow .ef-l .cus-efcolumn > div {
+  margin-top: 5%;
+}
+.cus-ef-flow .ef-l .cus-efcolumn .batteryVla {
+  display: inline-block;
+  max-width: 40px;
+}
+.cus-ef-flow .ef-l .cus-eflasline {
+  position: relative;
+  width: 3px;
+  height: 110%;
+  right: 1px;
+  background: #00CCCC;
+}
+.cus-ef-flow .ef-l .cus-eflasline .cus-ef-arrow {
+  position: absolute;
+  top: -6px;
+  left: 45%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.cus-ef-flow .ef-l .cus-eflasline .arrow-t {
+  background: url("/images/index/flowT.png") no-repeat center;
+}
+.cus-ef-flow .ef-l .cus-efTolasline {
+  height: 100px;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+.cus-ef-flow .ef-l .cus-efTlasline {
+  height: 55px;
+  position: absolute;
+  left: -2px;
+  bottom: -1px;
+}
+.cus-ef-flow .ef-l .battery {
+  margin-top: 3%;
+  width: 93px;
+}
+.cus-ef-flow .ef-l .battery > div {
+  width: 100%;
+}
+.cus-ef-flow .ef-l .pcs {
+  margin-top: 3%;
+  width: 40px;
+}
+.cus-ef-flow .ef-l .pcs > div {
+  width: 70px;
+  text-align: center;
+  margin-left: -13px;
+}
+.cus-ef-flow .ef-l .breaker {
+  width: 80px;
+}
+.cus-ef-flow .ef-l .cus-efline {
+  position: relative;
+  background: #00CCCC;
+  width: 20%;
+  height: 3px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.cus-ef-flow .ef-l .cus-efline.cus-efTline {
+  margin-right: 0;
+}
+.cus-ef-flow .ef-l .cus-efline .cus-ef-arrow {
+  position: absolute;
+  top: -6px;
+  left: 45%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.cus-ef-flow .ef-l .cus-efline .arrow-l {
+  background: url("/images/index/flowL.png") no-repeat center;
+}
+.cus-ef-flow .ef-l .cus-efline .arrow-r {
+  background: url("/images/index/flowR.png") no-repeat center;
+}
+.cus-ef-flow .ef-l .pscStatus {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.cus-ef-flow .ef-l .pscStatus-kj {
+  background-color: #66FF66;
+}
+.cus-ef-flow .ef-l .pscStatus-gj {
+  background-color: #FF3333;
+}
+.cus-ef-flow .ef-l .pscStatus-gz {
+  background-color: #FFCC33;
+}
+.cus-ef-flow .ef-l .efline-pTobPower {
+  position: relative;
+}
+.cus-ef-flow .ef-l .efline-pTobPower .pTobPower {
+  position: absolute;
+  left: calc((100% - 60px)/2);
+  top: -31px;
+  font-size: 0.875em;
+}
+.cus-ef-flow .ef-r {
+  float: left;
+  width: 30%;
+  font-size: 0.875em;
+  height: 100%;
+}
+.cus-ef-flow .ef-r .ef-load-tit {
+  font-size: 1.142857em;
+}
+.cus-ef-flow .ef-r .ef-hrline {
+  position: relative;
+  float: left;
+  width: 19%;
+  height: 100%;
+  vertical-align: middle;
+}
+.cus-ef-flow .ef-r .ef-hrline-val {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  text-align: left;
+}
+.cus-ef-flow .ef-r .ef-hrlineba {
+  width: 307%;
+  position: absolute;
+  height: 3px;
+  display: inline-block;
+  background: #00CCCC;
+  vertical-align: middle;
+  /* margin-top: 500%; */
+  top: 50%;
+  left: -37%;
+}
+.cus-ef-flow .ef-r .ef-hrlineba .cus-ef-arrow {
+  position: absolute;
+  top: -6px;
+  left: 45%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.cus-ef-flow .ef-r .ef-hrlineba .arrow-l {
+  background: url("/images/index/flowL.png") no-repeat center;
+}
+.cus-ef-flow .ef-r .ef-hrlineba .arrow-r {
+  background: url("/images/index/flowR.png") no-repeat center;
+}
+.cus-ef-flow .ef-r .ef-grid {
+  height: 90%;
+  width: 70%;
+  float: right;
+  margin-top: 18%;
+}
+.cus-ef-flow .ef-r .cus-gsBox {
+  margin-top: 18%;
+}
+.cus-ef-flow .ef-r span.tf-tit {
+  display: block;
+  font-size: 1.142857em;
+  margin-top: 4%;
+}
+.cus-ef-flow .ef-r .cus-vox {
+  height: 16%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.cus-ef-flow .ef-r .cus-vox > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.cus-ef-flow .ef-r .cus-vox > div:last-child {
+  margin-left: 15px;
+  text-align: left;
+}
+.cus-ef-flow .ef-r .cus-vox > div:last-child.tf-grid-description span {
+  margin-left: 0;
+}
+.cus-ef-flow .ef-r .cus-tfBox {
+  width: 106%;
+  height: 12.5%;
+}
+.cus-ef-flow .ef-r .cusr-line {
+  position: relative;
+  width: 3px;
+  height: 8%;
+  margin-left: 30%;
+  background: #00CCCC;
+}
+.cus-ef-flow .ef-r .cusr-line .cus-ef-arrow {
+  position: absolute;
+  top: 43%;
+  left: -6px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+.cus-ef-flow .ef-r .cusr-line .arrow-b {
+  background: url("/images/index/flowB.png") no-repeat center;
+}
+.cus-ef-flow .ef-r .cusr-line2 {
+  height: 36%;
+}
+.cus-ef-flow .cus-lh18 {
+  line-height: 1.8;
+}
+.cus-toPage {
+  cursor: pointer;
+}
+/*
+@media screen and (max-width: 1700px) {
+  .cus-ef-flow .ef-l .cus-efline{
+    width: 15.5%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .cus-ef-flow .ef-l .cus-efline{
+    width: 13.5%;
+  }
+}*/

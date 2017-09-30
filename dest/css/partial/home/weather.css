@@ -1,0 +1,65 @@
+.cus-weather {
+  margin: 3px;
+}
+.cus-weather .cw-content {
+  margin-top: 14px;
+}
+.cus-weather li {
+  float: left;
+}
+.cus-weather .cus-split {
+  width: 2px;
+  height: 140px;
+  background: url("/images/plantstatus/weatherSplit.png") center no-repeat;
+}
+.cus-weather .cw-tit {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+.cus-weather .cus-li {
+  width: 26%;
+  font-size: 0.85714em;
+}
+.cus-weather .cus-li img {
+  width: 54px;
+  height: 54px;
+}
+.cus-weather .cus-li .cw-temp {
+  margin-top: 10px;
+}
+.cus-weather .cus-firstLi {
+  width: 155px;
+  margin-left: 10px;
+  font-size: 1em;
+}
+.cus-weather .cus-firstLi .cw-temp {
+  font-size: 1.28571em;
+  margin-top: 0px;
+}
+.cus-weather .cus-firstLi img {
+  width: 85px;
+  height: 85px;
+}
+.cus-weather .cus-sectLi {
+  width: 100px;
+}
+.cus-weather .cus-thrLi {
+  width: 100px;
+}
+/*
+
+@media screen and (max-width: 1367px) {
+  .cus-weather .cw-content{
+    margin-top:0%;
+  }
+  .cus-weather .cus-li > div{
+    margin-top: 0;
+  }
+  .cus-weather .cw-tit{
+    margin-top: 2%;
+  }
+  #column4 .cus-column .cus-bar{
+    margin-top: 1.2%;
+  }
+}*/

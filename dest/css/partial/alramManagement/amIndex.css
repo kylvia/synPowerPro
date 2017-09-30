@@ -1,0 +1,52 @@
+.am-main {
+  text-align: left;
+  width: 96.875%;
+  margin: 20px auto;
+}
+.am-main label {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.am-main .form-group label + label {
+  margin-left: 15px;
+}
+.am-main .form-group + .form-group {
+  margin-left: 30px;
+}
+.am-main .btn-right {
+  float: right;
+}
+.am-main .ai-cred {
+  color: #ff4949;
+}
+.am-main .ai-cyellow {
+  color: #ffcc99;
+}
+.am-main .ai-purple {
+  color: #9999ff;
+}
+.am-main .am-table {
+  margin-top: 12px;
+  float: left;
+  width: 100%;
+}
+.am-main input[type="text"] {
+  border: 1px solid #075e94;
+}
+.am-main input.Wdate {
+  width: 170px;
+}
+.am-main table {
+  table-layout: fixed;
+}
+.am-main select {
+  width: 178px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #006699;
+  border-radius: 2px;
+  background: #011F43;
+}
+.am-main .cus-img-btn + .cus-img-btn {
+  margin-left: 22px;
+}

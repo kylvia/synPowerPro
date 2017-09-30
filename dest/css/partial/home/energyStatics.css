@@ -1,0 +1,14 @@
+.cus_energyStatics {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.cus_energyStatics .cus_char_tit {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.cus_energyStatics .cus_char_tit span {
+  font-size: 1.28571em;
+  color: #00ff33;
+}

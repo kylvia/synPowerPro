@@ -1,0 +1,59 @@
+.pr-main{
+  text-align: left;
+  margin:20px auto;
+  label{
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  .form-group{
+    label +label{
+      margin-left: 15px;
+    }
+  }
+  .form-group +.form-group{
+    margin-left: 42px;
+  }
+  .btn-right{
+    float: right;
+  }
+  .rm-table{
+    margin-top: 12px;
+    float: left;
+    width: 100%;
+  }
+  .cus-slider{
+    display: inline-block;
+    width: 78px;
+    height: 28px;
+    margin-left: 8px;
+    line-height: 26px;
+    border: 1px solid #075e94;
+    text-align: center;
+    color: #9bdff6;
+    background-color: #011e42;
+    .slider-item{
+      cursor: pointer;
+      display: inline-block;
+      width: 50%;
+    }
+    .slider-on{
+      color: #011e42;
+      background-color: #9bdff6;
+    }
+  }
+  .bootstrap-table .table-hover > tbody > tr{
+    background-color: rgba(1, 30, 66, 0.1);
+    &:hover{
+      td{
+        background-color: #011e42;
+      }
+      td:first-child{
+        background-color: transparent;
+      }
+    }
+
+  }
+  .bootstrap-table .table-hover > tbody > tr.toalColum{
+    background-color: rgba(1, 30, 66, 0.5);;
+  }
+}

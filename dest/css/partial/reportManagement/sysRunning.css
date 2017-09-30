@@ -1,0 +1,41 @@
+.ah-main {
+  text-align: left;
+  margin: 20px auto;
+}
+.ah-main label {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.ah-main select {
+  width: 178px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #006699;
+  border-radius: 2px;
+  background: #011F43;
+}
+.ah-main .form-group label + label {
+  margin-left: 15px;
+}
+.ah-main .form-group + .form-group {
+  margin-left: 42px;
+}
+.ah-main .btn-right {
+  float: right;
+}
+.ah-main .ah-table {
+  margin-top: 12px;
+  float: left;
+  width: 100%;
+}
+.ah-main .table {
+  table-layout: fixed;
+}
+.ah-main .bootstrap-table .fixed-table-container thead th .th-inner,
+.ah-main .bootstrap-table .fixed-table-container tbody td .th-inner {
+  line-height: 22px;
+}
+.ah-main .fixed-table-container thead th .th-inner,
+.ah-main .fixed-table-container tbody td .th-inner {
+  white-space: normal;
+}

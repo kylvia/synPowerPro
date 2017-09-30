@@ -1,0 +1,171 @@
+.cus-esc-container-loading {
+  height: 100%;
+  width: 100%;
+  padding-top: 2%;
+}
+.cus-esc-container {
+  height: 100%;
+  width: 100%;
+  padding-top: 2%;
+}
+.cus-esc-container .ess-tit {
+  height: 12.5%;
+  line-height: 2.5;
+  font-size: 1.142em;
+  padding-left: 10px;
+  text-align: left;
+}
+.cus-esc-container .cus-esc-box {
+  display: inline-block;
+  float: left;
+  margin-left: 1.9%;
+  width: 46.87%;
+  width: 900px;
+  height: 31%;
+  height: 280px;
+  margin-top: 0.8%;
+  background: url("/images/plantstatus/PCSback.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.cus-esc-container .cus-esc-box:nth-child(2n+2) {
+  margin-left: 50px;
+}
+.cus-esc-container .ess-section {
+  display: inline-block;
+  width: 100%;
+  height: 87.5%;
+}
+.cus-esc-container .ess-section > div {
+  margin-top: 2%;
+  float: left;
+}
+.cus-esc-container .ess-section .psi-one {
+  width: 37%;
+}
+.cus-esc-container .ess-section .psi-two {
+  width: 63%;
+}
+.cus-esc-container .bms-value,
+.cus-esc-container .bms-unit {
+  color: #00ff00;
+}
+.cus-esc-container .bms-unit {
+  margin-left: 5px;
+}
+.cus-esc-container .psi-one img {
+  margin-top: 6%;
+}
+.cus-esc-container .bms-img {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+.cus-esc-container .bms-img-status {
+  position: relative;
+  width: 82px;
+  height: 160px;
+  display: inline-block;
+  margin-top: 10px;
+  background: url("/images/plantstatus/bmsStatus.png") no-repeat center;
+}
+.cus-esc-container .mnf-img-val {
+  position: absolute;
+  width: 60px;
+  height: 82%;
+  left: 11px;
+  bottom: 11px;
+  display: inline-block;
+}
+.cus-esc-container .mnf-img-val .mnf-img-per {
+  background-color: #00cccc;
+  height: 60%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.cus-esc-container .bms-img-txt {
+  margin-top: 9px;
+}
+.cus-esc-container .bms-img-txt span {
+  margin-left: 9px;
+}
+.cus-esc-container .psi-two .bms-details {
+  border-radius: 3px;
+  width: 96%;
+  height: 100%;
+  text-align: left;
+  padding-top: 1%;
+  float: right;
+  margin-right: 2%;
+}
+.cus-esc-container .psi-two .bms-details table {
+  width: 100%;
+}
+.cus-esc-container .psi-two .bms-details tr {
+  height: 25px;
+  line-height: 25px;
+}
+.cus-esc-container .psi-two .bms-details td {
+  width: 15%;
+}
+.cus-esc-container .psi-two .bms-details td:nth-child(2n+1) {
+  text-align: right;
+  width: 33.5%;
+}
+.cus-esc-container .psi-status {
+  display: inline-block;
+  width: 31%;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 3%;
+}
+.cus-esc-container .psi-status-item {
+  text-align: right;
+}
+.cus-esc-container .psi-status-item .psis-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #a5e2f9;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.cus-esc-container .psi-status-item .psis-comm-on,
+.cus-esc-container .psi-status-item .psis-contactor-on {
+  border-color: #00ff00;
+  background-color: #00ff00;
+}
+.cus-esc-container .psi-status-item .psis-charge.on,
+.cus-esc-container .psi-status-item .psis-discharge.on,
+.cus-esc-container .psi-status-item .psis-comm.on,
+.cus-esc-container .psi-status-item .psis-contactor.on,
+.cus-esc-container .psi-status-item .psis-standby.on {
+  border-color: #00ff00;
+  background-color: #00ff00;
+}
+.cus-esc-container .psi-status-item .psis-break.on {
+  border-color: #ff3333;
+  background-color: #ff3333;
+}
+.cus-esc-container .psi-status-item .psis-signal {
+  display: inline-block;
+  width: 16px;
+  vertical-align: middle;
+  height: 16px;
+  margin-left: 8px;
+  background: url("/images/index/signal-grey.png") no-repeat center;
+}
+.cus-esc-container .psi-status-item .psis-signal.on {
+  background: url("/images/index/signal-green.png") no-repeat center;
+}
+.cus-esc-container .psi-status-item p:nth-child(2) {
+  margin-top: 5px;
+}
+.cus-esc-container .psi-status-item:first-child {
+  margin-left: -22px;
+}
+.cus-esc-container .psi-status-item + .psi-status-item {
+  margin-left: 16px;
+  margin-top: 7px;
+}

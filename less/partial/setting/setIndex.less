@@ -1,0 +1,103 @@
+.setPage{
+  width: 100%;
+  clear: both;
+  padding-top: 22px;
+  height: 100%;
+  .sp-menu{
+    text-align: left;
+    display: inline-block;
+    width: 17.708%;
+    float: left;
+    margin-top: -22px;
+    padding: 0 20px;
+    border-right: 1px solid #006699;
+    background-color: #011734;
+    height: 100%;
+    a{
+      padding: 0 15px;
+      display: inline-block;
+      width: 300px;
+      height: 52px;
+      line-height: 52px;
+      margin-top: 22px;
+      font-size: 20px;
+      background: url("/images/setting/login-bg1.png") no-repeat center;
+      &.on{
+        background: url("/images/setting/login-bg.png") no-repeat center;
+      }
+      &:hover{
+        background: url("/images/setting/login-bg.png") no-repeat center;
+      }
+    }
+    .menuIcon{
+      display: inline-block;
+      width: 28px;
+      vertical-align: middle;
+      height: 28px;
+      background: url("/images/setting/login-bg.png") no-repeat center;
+      margin-bottom: 4px;
+      margin-right: 10px;
+    }
+    .personAccount{
+      background: url("/images/setting/gerenzhanghu.png") no-repeat center;
+    }
+    .userManage{
+      background: url("/images/setting/yonghugyangli.png") no-repeat center;
+    }
+    .connectSet{
+      background: url("/images/setting/tongxunshezhi.png") no-repeat center;
+    }
+    .plantSet{
+      background: url("/images/setting/dianzhanshezhi.png") no-repeat center;
+    }
+  }
+  .sp-view{
+    width: 82.292%;
+    float: left;
+    padding: 0 14px;
+    .settingTitleCon{
+      position: relative;
+    }
+    .settingTitleConC{
+      display: inline-block;
+      width:calc(~'100% - 190px');
+      height: 48px;
+      vertical-align: top;
+      border-top: 1px solid #0f315b;
+      background-color: #01244d;
+      border-bottom: 1px solid #0f3059;
+
+      text-align: left;
+      h2{
+        line-height: 48px;
+        font-size: 18px;
+        margin-left: -70px;
+        display: inline-block;
+      }
+    }
+    .settingTitleConL{
+      display: inline-block;
+      vertical-align: top;
+      width: 95px;
+      height: 48px;
+      background: url("/images/setting/head-l.png") no-repeat;
+    }
+    .settingTitleConR{
+      .settingTitleConL;
+      background: url("/images/setting/head-r.png") no-repeat;
+    }
+  }
+  .settingMain{
+    border: 1px solid #0f3059;
+    border-top: none;
+    min-height: 500px;
+  }
+  input[type='text']{
+    border: 1px solid #075e94;
+    height: 28px;
+    line-height: 28px;
+  }
+  input[disabled],input[readonly]{
+    background-color: RGBA(1,36,77,.7);
+  }
+}

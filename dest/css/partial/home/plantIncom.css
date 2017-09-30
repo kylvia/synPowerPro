@@ -1,0 +1,88 @@
+.cus-column {
+  margin-top: 25px;
+  clear: both;
+}
+.cus-column .cus-tit {
+  text-align: left;
+  font-size: 1.142857em;
+  padding-left: calc((100% - 275px)/2);
+}
+.cus-column .cus-bar {
+  margin: auto;
+  width: 98%;
+  margin-top: 15px;
+}
+.cus-column .cus-value {
+  display: inline-block;
+  position: relative;
+}
+.cus-column .cus-value > span {
+  font-size: 2.14286em;
+  float: left;
+  width: 32px;
+  height: 52px;
+  line-height: 52px;
+  margin-left: 8px;
+  background-color: #051f44;
+}
+.cus-column .cus-value > span:first-child {
+  margin-left: 0;
+}
+.cus-column .cus-value > span:nth-child(6) {
+  margin-right: 10px;
+}
+.cus-column .cus-value .numberDot {
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #a5e2f9;
+  right: 27.35%;
+  bottom: 25%;
+}
+.cus-column .cus-unit {
+  margin-top: 22px;
+  display: inline-block;
+  width: 30px;
+}
+.cus-two {
+  margin-top: 30px;
+}
+.cus-two .cus-value > span {
+  color: #ffcc33;
+}
+.cus-two .cus-value .numberDot {
+  background-color: #ffcc33;
+}
+/*
+
+@media screen and (max-width: 1500px) {
+  .cus-column {
+    .cus-tit {
+      padding-left: calc(~'(100% - 236px)/2');
+    }
+    .cus-value {
+      span {
+        padding: 0 4px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1600px) {
+  .cus-column {
+    .cus-tit {
+      padding-left: calc(~'(100% - 256px)/2');
+    }
+    .cus-value {
+      span {
+        padding: 0 4px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1366px){
+  .cus-column .cus-value {
+    display: inline-block;
+  }
+}*/

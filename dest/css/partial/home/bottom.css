@@ -1,0 +1,40 @@
+.cus-bottom {
+  height: 100%;
+}
+.cus-bottom li {
+  float: left;
+  width: 25%;
+  height: 66px;
+  text-align: center;
+}
+.cus-bottom li > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 2.3%;
+  width: 80px;
+  white-space: nowrap;
+  position: relative;
+}
+.cus-bottom li > div:first-child {
+  width: auto;
+  margin-right: 8px;
+}
+.cus-bottom li .cus-tit {
+  position: absolute;
+  top: -20px;
+}
+.cus-bottom li .cus-box {
+  position: absolute;
+  bottom: -29px;
+}
+.cus-bottom li span {
+  display: block;
+  text-align: left;
+}
+.cus-bottom .cus-val {
+  font-size: 1.71em;
+  font-style: normal;
+}
+.cus-bottom .cus-unit {
+  font-style: normal;
+}

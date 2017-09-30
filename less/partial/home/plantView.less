@@ -1,0 +1,77 @@
+.cus-slider{
+  height: 66%;
+  .carousel-inner{
+    height: 100%;
+    .item{
+      height: 100%;
+      .cus-img{
+        width: 100%;
+        height: 170px;
+        >img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+    }
+  }
+  .carousel-indicators {
+    bottom:8px;
+    li{
+      margin-left: 10px;
+      &:first-child{
+        margin-left: 0px;
+      }
+    }
+  }
+}
+.cus-slider-caption{
+  padding: 0;
+  text-align: left;
+  color: #a5e2f9;
+  margin-top: 9px;
+  .cus-tit{
+    font-size: 1.142857em;
+    margin-bottom: 7px;
+  }
+  .cus-list{
+    line-height: 1;
+    span{
+      display: inline-block;
+      width: 28%;
+    }
+    .pv-plantStatus{
+      width: calc(~'(28% - 18px)');
+    }
+  }
+}
+.statusIcon(@col:red){
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: @col;
+  vertical-align: top;
+}
+.breaker{
+  .statusIcon(#FF323A);
+}
+.abnormal{
+  .statusIcon(#FAC72D);
+}
+.normal{
+  .statusIcon(#67FF61);
+}
+/*
+
+@media screen and (max-width: 1760px) {
+  .cus-slider .cus-caption .cus-list span{
+        width: 24%;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .cus-slider .cus-caption{
+        bottom: 1.5%;
+  }
+}*/

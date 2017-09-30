@@ -1,0 +1,25 @@
+<div class="ah-main" id="">
+    <form class="form-inline" role="form" style="float: left; width: 100%" method="post" id="queryForm">
+        <div class="form-group">
+            <label>电表选择：</label>
+            <select name="meterName" id="ah-model">
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>统计时间：</label>
+            <input name="timeStart" type="text" class="Wdate" id="ahd4311" onclick="WdatePicker({maxDate:'#F{$dp.$D(\'ahd4312\')}',dateFmt:'yyyy-MM-dd HH:mm',readOnly:true})"/> &nbsp;--&nbsp;<input name="timeEnd" type="text" class="Wdate" id="ahd4312" onclick="WdatePicker({minDate:'#F{$dp.$D(\'ahd4311\')}',dateFmt:'yyyy-MM-dd HH:mm',readOnly:true})"/>
+        </div>
+        <div class="form-group">
+            <a id="queryBtn" class="cus-img-btn cus-ib-query">查询</a>
+        </div>
+        <div class="form-group btn-right">
+            <a id="conformBtn" class="cus-img-btn cus-ib-export">导出</a>
+        </div>
+    </form>
+
+    <div class="ah-table scroll-table">
+        <table id="ah-table">
+        </table>
+    </div>
+</div>
